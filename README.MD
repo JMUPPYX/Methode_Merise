@@ -35,7 +35,7 @@ Exemple :
 
  ![capture d'écran](img_readme/MCD.PNG)
 
-- **L'occurence c'est l'entité avec un exemple** : 
+- **L'occurence c'est le champs avec un exemple concret avec un exemple** : 
 
  ![capture d'écran](img_readme/occurence.PNG)
 
@@ -59,17 +59,27 @@ Une medecin  peut avoir crée plusieurs potions = 1,n
  Il va nous servir à indiquer toutes les informations.
  Le type de données : nombre, booléen etc...
 
-## **Le modèle logique de données MLD** :
+## **Le modèle logique de données MPD et MLD** :
 
-Le but est de transformer le MCD en MLD.
-C'est le du champs et les caractéristiques qui lui seront attribués
+Le but est de transformer le MCD en MPD en MLD.
+- **MPD**
 
-Exemple :
+Le MPD (modèle physique de données) c'est la  version finale de notre BDD.
 
-  ![capture d'écran](img_readme/MLD.PNG)
+Exemple de MPD :
+
+![capture d'écran](img_readme/MPD.PNG)
+
+- **MLD**
 
 Il sert a  bien redéfinir les associations de type **1,1 / 1,n ou n,n** pour la formation de Foreign Key (clé primaire d'une autre table intégrée à la table parent) ou de table intermediaire (contient deux clés primaires (id) de deux tables ).
 [SQL manuel](https://sql.sh/cours/select)
+C'est le du champs et les caractéristiques qui lui seront attribués
+Exemple MLD :
+
+  ![capture d'écran](img_readme/MLDR.PNG)
+
+
 
 - Le dictionnaire de données :
 
@@ -79,11 +89,13 @@ Sert à  enregistrer toutes les caractéristiques par rapport aux champs de la t
 
 Exemple d'un dictionnaire de données :
 
- ![capture d'écran](img_readme/d_donnees.PNG)
+ ![capture d'écran](img_readme/dictionnaires_donnees.PNG)
 
 Le MCD et le MLD sont a effectués directement sur des logiciels, au préalable télécharger [Java](https://www.java.com/fr/).
 
 Et [Analyse SI](https://launchpad.net/analysesi/+download) ou [Mysql WorkBench](https://dev.mysql.com/downloads/workbench/) pour créer un MCD/MLD.
+
+Ça va bien se passer 😉!
 
 
 
