@@ -31,7 +31,7 @@ C'est l'étape a effectuée avant de concevoir une base de données.
 C'est une table qui contient l'id et les champs(nom de la colonne).
 Chaque champs à un type.
 
-Exemple :
+Exemple de MCD :
 
  ![capture d'écran](img_readme/MCD.png)
 
