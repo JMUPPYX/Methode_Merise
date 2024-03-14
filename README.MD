@@ -33,7 +33,7 @@ Chaque champs à un type.
 
 Exemple de MCD :
 
- ![capture d'écran](/img_readme/MCD.png)
+ ![capture d'écran](img_readme/MCD.png)
 
 - **L'occurence c'est le champs avec un exemple concret avec un exemple** : 
 
