@@ -33,7 +33,7 @@ Chaque champs à un type.
 
 Exemple :
 
- ![capture d'écran](img_readme/MCD.PNG)
+ ![capture d'écran](img_readme/MCD.png)
 
 - **L'occurence c'est le champs avec un exemple concret avec un exemple** : 
 
@@ -68,7 +68,7 @@ Le MPD (modèle physique de données) c'est la  version finale de notre BDD.
 
 Exemple de MPD :
 
-![capture d'écran](img_readme/MPD.PNG)
+![capture d'écran](img_readme/MPD.png)
 
 - **MLD**
 
