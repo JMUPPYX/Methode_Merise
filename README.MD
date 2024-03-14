@@ -33,11 +33,11 @@ Chaque champs à un type.
 
 Exemple :
 
- ![capture d'écran](img_readme\MCD.PNG)
+ ![capture d'écran](img_readme/MCD.PNG)
 
 - **L'occurence c'est l'entité avec un exemple** : 
 
- ![capture d'écran](img_readme\occurence.PNG)
+ ![capture d'écran](img_readme/occurence.PNG)
 
 - **Les cardinalités** :
  C'est le nombre minimum et maximum de relation entre les tables.
@@ -52,7 +52,7 @@ Une medecin  peut avoir crée plusieurs potions = 1,n
 
 1 potion peut être vendu d'en plusieur Drustore et plusieurs Drugstore peuvent vendre la même potion = n,n (many to many)
 
-  ![capture d'écran](img_readme\cardinalite.PNG)
+  ![capture d'écran](img_readme/cardinalite.PNG)
 
  - **Le dictionnaires de données**:
 
@@ -67,7 +67,7 @@ C'est le du champs et les caractéristiques qui lui seront attribués
 
 Exemple :
 
-  ![capture d'écran](img_readme\MLD.PNG)
+  ![capture d'écran](img_readme/MLD.PNG)
 
 Il sert a  bien redfinir les associations de type **1,1 / 1,n ou n,n** pour la formation de Foreign Key (clé primaire d'une autre table intégrée à la table parent) ou de table intermediaire (contient deux clés primaires (id) de deux tables ).
 [SQL manuel](https://sql.sh/cours/select)
@@ -75,11 +75,11 @@ Il sert a  bien redfinir les associations de type **1,1 / 1,n ou n,n** pour la f
 - Le dictionnaire de données :
 
 Sert à  enregistrer toutes les caractéristiques par rapport aux champs de la table. Il donne les définitions de chaque d'elle, le type de données (nombre, booléen,varchar)..
- ![capture d'écran](img_readme\d_donnees2.PNG)
+ ![capture d'écran](img_readme/d_donnees2.PNG)
 
 Exemple d'un dictionnaire de données :
 
- ![capture d'écran](img_readme\d_donnees.PNG)
+ ![capture d'écran](img_readme/d_donnees.PNG)
 
 Le MCD et le MLD sont a effectués directement sur des logiciels, au préalable télécharger [Java](https://www.java.com/fr/).
 
