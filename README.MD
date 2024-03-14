@@ -52,14 +52,15 @@ Une medecin  peut avoir crée plusieurs potions = 1,n
 
 1 potion peut être vendu d'en plusieur Drustore et plusieurs Drugstore peuvent vendre la même potion = n,n (many to many)
 
-  ![capture d'écran](img_readme\cardinalité.PNG)
+  ![capture d'écran](img_readme\cardinalite.PNG)
 
  - **Le dictionnaires de données**:
 
  Il va nous servir à indiquer toutes les informations.
  Le type de données : nombre, booléen etc...
 
-# # **Le modèle logique de données MLD**  :
+# # **Le modèle logique de données ML
+D**  :
 
 Le but est de transformer le MCD en MLD.
 C'est le du champs et les caractéristiques qui lui seront attribués
@@ -78,7 +79,7 @@ Sert à  enregistrer toutes les caractéristiques par rapport aux champs de la t
 
 Exemple d'un dictionnaire de données :
 
- ![capture d'écran](img_readme\d_données.PNG)
+ ![capture d'écran](img_readme\d_donnees.PNG)
 
 Le MCD et le MLD sont a effectués directement sur des logiciels, au préalable télécharger [Java](https://www.java.com/fr/).
 
