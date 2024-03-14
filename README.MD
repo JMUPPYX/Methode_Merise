@@ -59,8 +59,7 @@ Une medecin  peut avoir crée plusieurs potions = 1,n
  Il va nous servir à indiquer toutes les informations.
  Le type de données : nombre, booléen etc...
 
-# # **Le modèle logique de données ML
-D**  :
+## **Le modèle logique de données MLD** :
 
 Le but est de transformer le MCD en MLD.
 C'est le du champs et les caractéristiques qui lui seront attribués
@@ -69,12 +68,13 @@ Exemple :
 
   ![capture d'écran](img_readme/MLD.PNG)
 
-Il sert a  bien redfinir les associations de type **1,1 / 1,n ou n,n** pour la formation de Foreign Key (clé primaire d'une autre table intégrée à la table parent) ou de table intermediaire (contient deux clés primaires (id) de deux tables ).
+Il sert a  bien redéfinir les associations de type **1,1 / 1,n ou n,n** pour la formation de Foreign Key (clé primaire d'une autre table intégrée à la table parent) ou de table intermediaire (contient deux clés primaires (id) de deux tables ).
 [SQL manuel](https://sql.sh/cours/select)
 
 - Le dictionnaire de données :
 
 Sert à  enregistrer toutes les caractéristiques par rapport aux champs de la table. Il donne les définitions de chaque d'elle, le type de données (nombre, booléen,varchar)..
+
  ![capture d'écran](img_readme/d_donnees2.PNG)
 
 Exemple d'un dictionnaire de données :
