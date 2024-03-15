@@ -79,18 +79,20 @@ Exemple de MPD :
 
 - **MLD**
 
-Il sert a  bien redéfinir les associations de type **1,1 / 1,n ou n,n** pour la formation de Foreign Key (clé primaire d'une autre table intégrée à la table parent) ou de table intermediaire (contient deux clés primaires (id) de deux tables ).
+Il sert a  bien redéfinir les associations de type **1,1 / 1,n ou n,n** pour la formation de Foreign Key (=clé primaire d'une autre table intégrée à la table parent) ou de table intermediaire (contient deux clés primaires (id) de deux tables ).
 [SQL manuel](https://sql.sh/cours/select)
-C'est le champs et les caractéristiques qui lui seront attribués
-Exemple MLD :
+
+C'est le champs et les caractéristiques qui lui seront attribués.
+
+- Exemple MLD :
 
   ![capture d'écran](img_readme/MLDR.PNG)
 
 
 
-Le MCD et le MLD sont a effectués directement sur des logiciels, au préalable télécharger [Java](https://www.java.com/fr/).
+Le MCD, le MLD et MPD sont à effectués directement sur des logiciels, au préalable télécharger [Java](https://www.java.com/fr/).
 
-Et [Analyse SI](https://launchpad.net/analysesi/+download) ou [Mysql WorkBench](https://dev.mysql.com/downloads/workbench/) pour créer un MCD/MLD.
+Et [Analyse SI](https://launchpad.net/analysesi/+download) ou [Mysql WorkBench](https://dev.mysql.com/downloads/workbench/) pourront être vos supports pour la mise en place de la Méthode Merise.
 
 Ça va bien se passer 😉!
 
