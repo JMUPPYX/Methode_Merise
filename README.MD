@@ -58,7 +58,7 @@ Une medecin  peut avoir crée plusieurs potions = 1,n
  
 - Le dictionnaire de données :
 
-Sert à  enregistrer toutes les caractéristiques par rapport aux champs de la table. Il donne les définitions de chaque d'elle, le type de données (nombre, booléen,varchar)..
+Sert à  enregistrer toutes les caractéristiques par rapport aux champs de la table. Il donne les définitions de chaque champs, le type de données (nombre, booléen,varchar)..
 
  ![capture d'écran](img_readme/d_donnees2.PNG)
 
