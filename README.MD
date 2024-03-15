@@ -6,17 +6,18 @@ Elle possède 3 niveaux  :
 - Niveau conceptuel : 
 
 Définition des entités, des associations et des dépendances fonctionnelles.
-Le Modèle Conceptuel de Données (MCD) est crée à ce moment la.
+Le **Modèle Conceptuel de Données (MCD)** est crée à ce moment la.
 
 - Niveau logique :
 
 On effectue les rélations entre les entités.
-Le MLD (Modèle de logique de données) est crée.
+Le **MLD (Modèle de logique de données)** est crée.
 
 - Niveau physique : 
 
-On implémente la base de données
+On implémente la base de données. 
 On effectue le Shéma SQL.
+Le **MPD  (Modèle Physique de Données)** est créé.
 
 Les caratéristiques d'une base de données sont :
 - Les tables qui contiennent des données
@@ -54,14 +55,20 @@ Une medecin  peut avoir crée plusieurs potions = 1,n
 
   ![capture d'écran](img_readme/cardinalite.PNG)
 
- - **Le dictionnaires de données**:
+ 
+- Le dictionnaire de données :
 
- Il va nous servir à indiquer toutes les informations.
- Le type de données : nombre, booléen etc...
+Sert à  enregistrer toutes les caractéristiques par rapport aux champs de la table. Il donne les définitions de chaque d'elle, le type de données (nombre, booléen,varchar)..
 
-## **Le modèle logique de données MPD et MLD** :
+ ![capture d'écran](img_readme/d_donnees2.PNG)
 
-Le but est de transformer le MCD en MPD en MLD.
+Exemple d'un dictionnaire de données :
+
+ ![capture d'écran](img_readme/dictionnaires_donnees.PNG)
+
+
+## **Le modèle logique de données, le modèle physique de données MPD et MLD** :
+
 - **MPD**
 
 Le MPD (modèle physique de données) c'est la  version finale de notre BDD.
@@ -74,22 +81,12 @@ Exemple de MPD :
 
 Il sert a  bien redéfinir les associations de type **1,1 / 1,n ou n,n** pour la formation de Foreign Key (clé primaire d'une autre table intégrée à la table parent) ou de table intermediaire (contient deux clés primaires (id) de deux tables ).
 [SQL manuel](https://sql.sh/cours/select)
-C'est le du champs et les caractéristiques qui lui seront attribués
+C'est le champs et les caractéristiques qui lui seront attribués
 Exemple MLD :
 
   ![capture d'écran](img_readme/MLDR.PNG)
 
 
-
-- Le dictionnaire de données :
-
-Sert à  enregistrer toutes les caractéristiques par rapport aux champs de la table. Il donne les définitions de chaque d'elle, le type de données (nombre, booléen,varchar)..
-
- ![capture d'écran](img_readme/d_donnees2.PNG)
-
-Exemple d'un dictionnaire de données :
-
- ![capture d'écran](img_readme/dictionnaires_donnees.PNG)
 
 Le MCD et le MLD sont a effectués directement sur des logiciels, au préalable télécharger [Java](https://www.java.com/fr/).
 
