@@ -20,7 +20,7 @@ On effectue le Shéma SQL.
 Le **MPD  (Modèle Physique de Données)** est créé.
 
 Les caratéristiques d'une base de données sont :
-- Les tables qui contiennent des données
+- Les entités qui contiennent des données
 - 1 donnée par cellule
 - Peu de redondance
 - Données les plus brutes possibles
@@ -29,7 +29,7 @@ Les caratéristiques d'une base de données sont :
 # **Le modèle conceptuel de données MCD** :
 
 C'est l'étape a effectuée avant de concevoir une base de données.
-C'est une table qui contient l'id et les champs(nom de la colonne).
+C'est une entité qui contient l'id et les champs(nom de la colonne).
 Chaque champs à un type.
 
 Exemple de MCD :
@@ -90,7 +90,7 @@ C'est le champs et les caractéristiques qui lui seront attribués.
 
 
 
-Le MCD, le MLD et MPD sont à effectués directement sur des logiciels, au préalable télécharger [Java](https://www.java.com/fr/).
+Le MCD, le MLD et MPD sont à effectuer directement sur des logiciels, au préalable télécharger [Java](https://www.java.com/fr/).
 
 Et [Analyse SI](https://launchpad.net/analysesi/+download) ou [Mysql WorkBench](https://dev.mysql.com/downloads/workbench/) pourront être vos supports pour la mise en place de la Méthode Merise.
 
